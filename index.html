@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="./styles/homepage.css">
 </head>
+
 <body>
     <main>
+        <!-- Google Logo -->
         <div class="google-logo">
             <img src="./images/googlelogo_color_272x92dp.png" alt="Google">
         </div>
-        <div class="search-bar">
-            <input type="text" name="search">
-        </div>
-        <div class="submit-btn">
-            <button>Google Search</button>
-            <button>I'm Feeling Special</button>
-        </div>
+        <form action="#">
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <img id="search-icon" src="./images/outline_search_black_24dp.png" alt="Search">
+                <input type="text" name="search">
+                <button id="voice-search"><img src="./images/outline_mic_black_24dp.png" alt="Voice Search"></button>
+                
+            </div>
+            <!-- Submit Buttons -->
+            <div class="submit-btn">
+                <button>Google Search</button>
+                <button>I'm Feeling Special</button>
+            </div>
+        </form>
     </main>
 </body>
+
 </html>
