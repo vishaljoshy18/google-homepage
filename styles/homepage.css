@@ -21,7 +21,6 @@ body{
     border: 1px solid;
     border-radius: 20vh;
     display: flex;
-    /* width: 581px; */
     height: 44px;
     align-items: center;
     justify-content: center;
@@ -32,6 +31,11 @@ body{
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
 }
+.search-bar:focus-within{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
 .search-bar input{
     height: 34px !important;
     width: 30rem;
@@ -48,9 +52,10 @@ body{
 }
 
 .search-bar #voice-search{
-    padding-right:10px;
+    margin-right: 5px;
     padding-top: 5px;
     border: transparent;
+    border-radius: 50px;
     background: white;
 }
 
@@ -112,7 +117,22 @@ header a{
     color:rgba(0,0,0,0.70);
 }
 
-#signin-btn{
+header #about-nav{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+header #gapps-nav{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+header #gapps-btn{
+    margin: 5px 0px 0px 0px;
+    
+}
+
+header #signin-btn{
     border: 1px solid #4285f4;
     font-weight: bold;
     outline: none;
@@ -124,17 +144,10 @@ header a{
     color: #fff;
     font-size: 13px;
     margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
 }
 
-#gapps-nav{
-    padding-right: 15px;
-    padding-top: 10px;
-}
-
-#about-nav{
-    padding-left: 15px;
-    padding-top: 10px;
-}
 /* Footer */
 footer{
     display: flex;
@@ -181,3 +194,4 @@ footer #privacy-nav{
     justify-content: center;
    }
 }
+
