@@ -12,7 +12,9 @@ main {
     height: 60vh;
     
 }
-
+body{
+    margin:0;
+}
 /* Search bar */
 .search-bar{
     color: #e4e6e9;
