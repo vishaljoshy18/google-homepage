@@ -2,9 +2,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
-html{
-    overflow-x: hidden;
-}
+
 main {
     display: flex;
     justify-content: center;
@@ -39,7 +37,7 @@ main {
     line-height: 34px;
     border: none;
     outline: none;
-    border: solid black;
+    /* border: solid black; */
 }
 
 /* Search bar icons */
@@ -173,5 +171,11 @@ footer #privacy-nav{
     .search-bar input{
         width: 70vw;
     }
-    
+   footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+   }
 }
