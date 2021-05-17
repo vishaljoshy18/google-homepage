@@ -88,7 +88,7 @@ body{
     background-color: #f8f8f8; 
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -141,7 +141,7 @@ header #signin-btn{
     cursor: pointer;
 }
 
-/* Footer */
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -178,7 +178,7 @@ footer #privacy-nav{
     padding-right: 25px;
 }
 
-/* Responsive */
+
 @media screen and (max-width: 600px){
     .search-bar input{
         width: 70vw;
